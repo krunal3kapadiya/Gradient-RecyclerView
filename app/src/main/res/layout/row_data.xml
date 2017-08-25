@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/row_id_layout"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/gradient_drawable"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/row_data_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/recycler_text_padding"
+        android:textColor="@android:color/white"/>
+</LinearLayout>

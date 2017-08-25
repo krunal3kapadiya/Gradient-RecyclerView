@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Gradient RecyclerView</string>
+    <string name="index_no">Index no %s</string>
+</resources>
