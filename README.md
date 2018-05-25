@@ -1,4 +1,6 @@
-# GradientRecyclerView [![Build Status](https://travis-ci.org/krunal3kapadiya/GradientRecyclerView.svg?branch=master)](https://travis-ci.org/krunal3kapadiya/GradientRecyclerView)
+# Gradient RecyclerView [![Build Status](https://travis-ci.org/krunal3kapadiya/GradientRecyclerView.svg?branch=master)](https://travis-ci.org/krunal3kapadiya/GradientRecyclerView)
+
+Displaying gradients in each rows of RecyclerView
 
 ## Screenshot
 <img src="/screenshot.png" width="350"/>
