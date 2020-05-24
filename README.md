@@ -3,6 +3,32 @@
 
 Displaying gradients in each rows of RecyclerView
 
+## How to use? :thinking:	
+Use [ValueInterpolator](app/src/main/java/krunal3kapadiya/com/gradientrecyclerview/data/ValueInterpolator.java) class and add this method
+
+```
+    public int[] getGradientColors(int startColor, int endColor, int size) {
+        int colors[] = new int[size];
+
+        int startR = Color.red(startColor);
+        int startG = Color.green(startColor);
+        int startB = Color.blue(startColor);
+
+        int endR = Color.red(endColor);
+        int endG = Color.green(endColor);
+        int endB = Color.blue(endColor);
+
+        ValueInterpolator interpolatorR = new ValueInterpolator(0, size - 1, endR, startR);
+        ValueInterpolator interpolatorG = new ValueInterpolator(0, size - 1, endG, startG);
+        ValueInterpolator interpolatorB = new ValueInterpolator(0, size - 1, endB, startB);
+
+        for (int i = 0; i < size; ++i) {
+            colors[i] = Color.argb(255, (int) interpolatorR.map(i), (int) interpolatorG.map(i), (int) interpolatorB.map(i));
+        }
+        return colors;
+    }
+```
+
 ## Screenshot
 <img src="/screenshot.png" width="350"/>
 
