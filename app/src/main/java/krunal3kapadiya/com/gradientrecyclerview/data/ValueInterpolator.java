@@ -1,7 +1,7 @@
 package krunal3kapadiya.com.gradientrecyclerview.data;
 
 /**
- * Created by sanjay on 8/24/2017.
+ * Created by krunal3kapadiya on 8/24/2017.
  */
 
 public class ValueInterpolator
