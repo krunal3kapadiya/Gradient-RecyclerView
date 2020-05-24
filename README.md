@@ -4,7 +4,7 @@
 Displaying gradients in each rows of RecyclerView
 
 ## How to use? :thinking:	
-Use [ValueInterpolator](app/src/main/java/krunal3kapadiya/com/gradientrecyclerview/data/ValueInterpolator.java) class and add this method
+Use [ValueInterpolator](app/src/main/java/krunal3kapadiya/com/gradientrecyclerview/data/ValueInterpolator.java) class and add this method to get the gradient for each row
 
 ```
     public int[] getGradientColors(int startColor, int endColor, int size) {
