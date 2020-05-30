@@ -3,6 +3,9 @@
 
 Displaying gradients in each rows of RecyclerView
 
+## Screenshot
+<img src="/screenshot.png" width="350"/>
+
 ## How to use? :thinking:	
 Use [ValueInterpolator](app/src/main/java/krunal3kapadiya/com/gradientrecyclerview/data/ValueInterpolator.java) class and add this method to get the gradient for each row
 
@@ -28,9 +31,6 @@ Use [ValueInterpolator](app/src/main/java/krunal3kapadiya/com/gradientrecyclervi
         return colors;
     }
 ```
-
-## Screenshot
-<img src="/screenshot.png" width="350"/>
 
 ## How to contribute?
 - Check out contribution :point_right: [Guidelines](./CONTRIBUTING.md)  
