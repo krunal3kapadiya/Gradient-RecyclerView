@@ -54,8 +54,8 @@ before_script:
 script:
     - ./gradlew :app:assembleDebug --continue --stacktrace
 
-#after_success:
-#    - bash <(curl -s https://codecov.io/bash)
+after_success:
+    - bash <(curl -s https://codecov.io/bash)
 
 after_failure:
     - cat $TRAVIS_BUILD_DIR/app/build/outputs/lint-results-debug.xml
